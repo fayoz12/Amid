@@ -1,0 +1,776 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 1440px;
+  height: 1440px;
+  margin: auto;
+}
+
+.wrapper {
+  width: 1300px;
+  height: 90px;
+
+  margin-top: 50px;
+}
+
+.head_boxtitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  /* Features */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #464646;
+}
+
+span {
+  font-weight: 900;
+}
+
+.btn_box {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 39px;
+  gap: 10px;
+
+  background: #124f48;
+  border-radius: 31.5px;
+}
+
+.head_btn {
+  background-color: inherit;
+  border: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+/* MAIN */
+
+.main_wrapper {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 1340px;
+  height: 724px;
+  left: 61px;
+  top: 167px;
+
+  border-radius: 30px;
+  border: 1px solid #e9fbf9;
+  background-color: #e9fbf9;
+  margin-top: 70px;
+  margin-left: 435px;
+}
+
+.main_box {
+  display: flex;
+}
+
+.minitext_box {
+  /* Rectangle 5 */
+
+  width: 117px;
+  height: 38px;
+
+  background: #ffffff;
+  margin-left: 25px;
+  border: 1px solid #f2faf9;
+  border-radius: 4px;
+
+  border: 1px solid red;
+}
+.left_minitext {
+  margin-left: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.1em;
+
+  color: #ff6107;
+}
+
+.left_main_title {
+  padding: 15px 0;
+  /* Try Our Business Ideas to grow Rapidly */
+  margin-left: 25px;
+  width: 570px;
+  height: 251px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 80px;
+  /* or 125% */
+
+  color: #021d1a;
+}
+
+.left_main_text {
+  width: 428px;
+  height: 90px;
+  margin-left: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  padding: 15px 0;
+  color: #464646;
+}
+
+.left_btn_box {
+  margin-left: 27px;
+  margin-top: 25px;
+  width: 180px;
+  height: 57px;
+
+  background: #ff823b;
+  border-radius: 31.5px;
+}
+
+.button {
+  /* Get Started */
+
+  width: 120px;
+  border: none;
+  background-color: inherit;
+  margin-top: 15px;
+  margin-left: 25px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+/* LINKS */
+
+.links {
+  /* Brands */
+
+  position: absolute;
+  width: 1110px;
+  height: 235px;
+  left: 165px;
+  top: 1061px;
+
+  margin-left: 420px;
+}
+
+/* NAVBAR */
+
+.nav_wrapper {
+  width: 1111px;
+  height: 627px;
+
+  margin: auto;
+}
+
+.glav_title_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_glav_title {
+  /* Exactly Everything You Need For Business */
+
+  width: 534px;
+  height: 154px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 80px;
+  /* or 182% */
+
+  color: #021d1a;
+}
+
+.title_text {
+  /* We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan */
+
+  width: 428px;
+  height: 90px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #464646;
+}
+
+.nav_btn_box {
+  /* Rectangle 5 */
+
+  box-sizing: border-box;
+
+  width: 117px;
+  height: 38px;
+
+  background: #ffffff;
+  border: 1px solid #f2faf9;
+  border-radius: 4px;
+}
+
+.nav_box {
+  /* services */
+
+  width: 117px;
+  height: 38px;
+
+  border-color: #f2faf9;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #ff6107;
+}
+
+.nav_cards_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+.box_title1 {
+  /* Business Growing Support */
+
+  width: 302px;
+  height: 28px;
+  padding: 15px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #021d1a;
+}
+
+.box_text1 {
+  /* Get every necessary support to grow as business startup */
+
+  width: 350px;
+  height: 81px;
+  margin-top: 50px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #464646;
+}
+
+.nav_button {
+  /* Learn More */
+
+  width: px;
+  height: 21px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #124f48;
+}
+
+.button3 {
+  /* Learn More */
+
+  width: 203px;
+  height: 57px;
+
+  border-radius: 31.5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  background: #ff823b;
+  color: #ffffff;
+}
+
+/* ASIDE */
+
+.asd_wrapper {
+  margin: auto;
+  width: 1115px;
+  height: 1377px;
+}
+
+.asd_box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.asd_mini_glav_text {
+  /* achievements */
+  padding: 30px 30px;
+  width: 119px;
+  height: 22px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: #ff6107;
+}
+
+.asd_glav_title {
+  /* We Worked With 100+ Company Over 10 Years */
+  padding: 25px 0;
+  width: 540px;
+  height: 154px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 80px;
+  /* or 182% */
+
+  color: #021d1a;
+}
+
+.asd_left_img {
+  padding: 30px 0;
+}
+
+.asd_mini_title {
+  /* JobHub Job Finding Website */
+  padding: 30px 25px;
+  width: 310px;
+  height: 28px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.asd_mini_text {
+  padding: 30px 25px;
+  width: 511px;
+  height: 108px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #464646;
+}
+
+.asd_button {
+  /* Button */
+
+  width: 244px;
+  height: 57px;
+
+  background: #ff823b;
+  border-radius: 31.5px;
+
+  /* View More Work */
+
+  margin-left: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.prons {
+  /* 9k+ */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+  /* identical to box height, or 222% */
+
+  color: rgba(18, 79, 72, 0.37);
+}
+
+.comp {
+  /* Satisfiingly Happy Clients */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  color: #124f48;
+}
+
+.from {
+  /* From 100+ Countries */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  color: #ff823b;
+}
+
+.asd_card_box {
+  display: flex;
+  gap: 35px;
+}
+
+.asd_blok1,
+.asd_blok2,
+.asd_blok3,
+.asd_blok4 {
+  padding: 20px;
+}
+
+/* BLOG */
+
+.blog_wrapper {
+  width: 1110px;
+  height: 944px;
+
+  margin: auto;
+  margin-top: 100px;
+}
+
+.bl_mini_text {
+  /* blog */
+  margin: auto;
+  width: 37px;
+  height: 19px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+
+  color: #ff6107;
+}
+
+.blog_title {
+  /* We Publish Blogs Every Week */
+  margin: auto;
+  width: 669px;
+  height: 63px;
+  margin-top: 35px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 80px;
+  /* or 182% */
+  text-align: center;
+
+  color: #021d1a;
+}
+
+.blog_glav_text {
+  /* We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan */
+  margin: auto;
+  margin-top: 50px;
+  width: 662px;
+  height: 60px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  text-align: center;
+
+  color: #464646;
+}
+
+.blog_card_box {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.left_title {
+  /* Upgrowing Economy Needs More Startups */
+
+  width: 463px;
+
+  height: 30px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #000000;
+}
+
+.left_text {
+  /* We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan */
+
+  width: 496px;
+  height: 90px;
+  padding: 35px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #464646;
+}
+
+.blimg1 {
+  padding: 35px 0;
+
+  width: 510px;
+  height: 328px;
+}
+
+.right_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  color: #000000;
+  margin-top: 50px;
+}
+
+.blimg2 {
+  margin-top: 50px;
+}
+
+.right_button {
+  /* Learn More */
+
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #124f48;
+}
+
+.left_button {
+  /* Button */
+
+  width: 203px;
+  height: 57px;
+
+  background: #ff823b;
+  border-radius: 31.5px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.footer_wrapper {
+  width: 1440px;
+  height: 612px;
+  top: 4784px;
+  gap: 0px;
+  opacity: 0px;
+ 
+  margin: auto;
+}
+
+.footer_glav_title {
+  width: 637px;
+  height: 132px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  padding: 25px 0;
+  line-height: 66px;
+  text-align: center;
+
+  margin: auto;
+  color: #000000;
+}
+
+.footer_links {
+  /* With One Click */
+
+  width: 130px;
+  height: 27px;
+  margin-left: 550px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ff823b;
+}
+
+.footer_btn {
+  width: 203px;
+  height: 57px;
+
+  margin-left: 50px;
+  background: #ff823b;
+  border-radius: 31.5px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.head_boxtitle {
+  margin-top: 120px;
+}
+
+.stk {
+  margin-top: 500000000px;
+}
+
+.last_box_wrapper {
+  width: 1440px;
+  height: 60px;
+  margin-top: 110px;
+
+  background: #124f48;
+}
+.left {
+  padding: 15px 15px;
+  /* All Rights Reserved @Debzui2020 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ffffff;
+}
+.right {
+  padding: 15px 15px;
+}
+.last_box {
+  display: flex;
+  align-items: c;
+  justify-content: space-between;
+}
+
+
+.sp2{
+color: #FF823B;
+}
